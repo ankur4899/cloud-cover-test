@@ -1,0 +1,27 @@
+{
+  "menuList": [{
+      "id": 1,
+      "itemName": "Hamburger",
+      "price": 200,
+      "itemCount": 0
+    },
+    {
+      "id": 2,
+      "itemName": "Fries",
+      "price": 100,
+      "itemCount": 0
+    },
+    {
+      "id": 3,
+      "itemName": "Coke",
+      "price": 50,
+      "itemCount": 0
+    },
+    {
+      "id": 4,
+      "itemName": "Pepsi",
+      "price": 50,
+      "itemCount": 0
+    }
+  ]
+}
