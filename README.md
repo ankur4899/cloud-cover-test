@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.0.
 
+## Steps to Run Project
+
+Make sure you are running node version of 10.15 and above and npm 6.4 and above
+
+1. git clone https://github.com/ankur4899/cloud-cover-test.git
+2. cd cloudCoverTest
+3. npm install
+4. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`
+5. Application will be up and running
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
