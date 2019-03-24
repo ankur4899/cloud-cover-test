@@ -17,6 +17,9 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {MatInputModule} from '@angular/material/input';
 import {MatDialogModule} from '@angular/material/dialog';
 import { SuccessDialogComponent } from './components/success-dialog/success-dialog.component';
+import { AdminComponent } from './components/admin/admin.component';
+import { UpdatePriceComponent } from './components/update-price/update-price.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -25,7 +28,9 @@ import { SuccessDialogComponent } from './components/success-dialog/success-dial
     MenuListComponent,
     HeaderComponent,
     CheckoutComponent,
-    SuccessDialogComponent
+    SuccessDialogComponent,
+    AdminComponent,
+    UpdatePriceComponent
   ],
   imports: [
     BrowserAnimationsModule,
@@ -40,10 +45,11 @@ import { SuccessDialogComponent } from './components/success-dialog/success-dial
     MatIconModule,
     MatGridListModule,
     MatInputModule,
-    MatDialogModule
+    MatDialogModule,
+    FormsModule
   ],
   providers: [],
-  entryComponents:[SuccessDialogComponent],
+  entryComponents:[SuccessDialogComponent,UpdatePriceComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
