@@ -1,14 +1,19 @@
 .user-detail-form {
-    min-width: 150px;
-    max-width: 500px;
-    width: 100%;
-  }
-  
-  .form-full-width {
-    width: 100%;
-  }
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
 
-  .example-card {
-    width: 100%;
-    max-width: 95%;
-  }
+.form-full-width {
+  width: 100%;
+}
+
+.example-card {
+  max-width: 1330px;
+  width: 100%;
+  margin: 20px;
+}
+
+td {
+  padding-right: 8px;
+}

@@ -7,3 +7,6 @@ body{
 table {
     width: 100%;
   }
+  .align-btn-right{
+      text-align: right;
+  }
